@@ -37,3 +37,19 @@ pylab.plot(x, y)
 pylab.savefig("rand_walk_gen"+str(n)+".png",dpi=1000)  # bbox_inches="tight",dpi=600)
 pylab.show()
 ```
+&nbsp;
+
+Execution of the code
+```python
+$ python3 random_walk_generator.py 
+How many steps in this random walk? 
+```
+&nbsp;
+
+1. chmod +x the file as needed
+1. execute the file in the terminal
+1. Answer how many steps you want (eg 800)
+1. Wait a little and an image appears.
+1. After you're done looking at the image, close it
+1. A file will be automatically created along side the python file (eg: rand_walk_gen800.png).   This is the same image you saw in the last step, saved.
+1. Running the program again will NOT produce the same image as the "walk" is random
